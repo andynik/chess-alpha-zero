@@ -6,7 +6,7 @@ Supervised learning could be done over PGN games files of professional chess pla
 
 Here some nice results (over 3000 games of SL, elo >= 2000). I'm (white) playing against the program (black):
 
-![I am vs program](https://github.com/andynik/deep-move/blob/master/images/ApronusDiagram1529753143.gif)
+![alt text](https://github.com/andynik/deep-move/blob/master/images/ApronusDiagram1529753143.gif 'I am vs program')
 
 To start SL put PGN files in `data/play_data` dir and run the command:
 
@@ -28,7 +28,7 @@ All in all it's just about generating PGN data which contains self-played games 
 ## GUI
 You can also run the engine in GUI. To set it up, just point it to `uci.bat` throught GUI environment.
 
-![Running the engine in Arena](https://github.com/andynik/deep-move/blob/master/images/Arena.png)
+![alt text](https://github.com/andynik/deep-move/blob/master/images/Arena.png 'Running the engine in Arena')
 
 
 To find more about the work check out my thesis [over here](https://drive.google.com/file/d/116uMDNDGFkpX7DirNJyG5QGh-QthFG_E/view?usp=sharing)<sup>ua</sup>.
