@@ -17,9 +17,11 @@ python src/chess_zero/run.py sl
 ## Reinforcement Learning
 For reinforcement learning use: `self`, `opt` and `eval` commands:
 
-`self` is Self-Play to generate training data by self-play using BestModel.
-`opt` is Trainer to train model and generate next-generation models.
-`eval` is Evaluator to evaluate whether the next-generation model is better than BestModel. If better, replace BestModel.
+Command | Description
+--- | ---
+`self` | Self-Play to generate training data by self-play using BestModel
+`opt` | Trainer to train model and generate next-generation models
+`eval` | Evaluator to evaluate whether the next-generation model is better than BestModel. If better, replace BestModel
 
 All in all it's just about generating PGN data which contains self-playes played games of the chess engine.
 
